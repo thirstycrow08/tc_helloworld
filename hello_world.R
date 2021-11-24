@@ -10,7 +10,7 @@ hustle_funds_sales %>%
   ggplot(aes(x=geo)) +
   geom_bar() +
   labs(
-    title = "Customers by Geography",
+    title = "Customers by Geo",
     y="Customer Count In ",
     fill = " ",
     x="Geo",
